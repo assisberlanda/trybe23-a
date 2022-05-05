@@ -1,0 +1,1 @@
+plugins=(zsh-autosugestões git)
