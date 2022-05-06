@@ -2,8 +2,6 @@
 # Criado por https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edite em https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
-.DS_Store
-
 ### VisualStudioCode ###
 .vscode/*
 .vscode/settings.json
