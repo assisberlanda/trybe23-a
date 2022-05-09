@@ -1,0 +1,22 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font: sans-serif;
+}
+ul {
+    color: rgb(4, 0, 255);
+    font-style: italic;
+    line-height: 2em;
+    text-decoration: underline;
+}
+.cor {
+    background-color: rgb(255, 400, 200)
+}
+p {
+    font-weight: 600px;
+    font-size: 3em;
+    text-align: justify;
+}
+body {
+    font-size: 16px;
+}
