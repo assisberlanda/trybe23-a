@@ -1,0 +1,27 @@
+div:hover {
+    border: 1px solid red;
+}
+div:nth-child(3) {
+    color: red;
+}
+div:nth-child(4) {
+    color: blue;
+}
+div:nth-child(5) {
+    color: green;
+    height: 50px;
+    font-size: 18px;
+
+}
+div:nth-child(6) {
+    color: orange;
+}
+div:nth-child(7) {
+    color: purple;
+}
+h3 {
+    background-color: rgba(100, 222, 228, 0.253);
+}
+div:nth-child(odd) {
+    font-style: italic;
+}
