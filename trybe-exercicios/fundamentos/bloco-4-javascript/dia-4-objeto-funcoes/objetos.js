@@ -45,32 +45,33 @@
 // Pato Donald e Christmas on Bear Mountain, Dell's Four Color Comics #178
 // Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas
 // Ambos recorrentes // Atenção para essa última linha!
-
+/*
 let info = {
-    personagem: 'Margarida',
-    origem: 'Pato Donald',
-    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-    recorrente: 'Sim'
-  };
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  recorrente: 'Sim',
+};
 
-let infoB = {
-    personagem: 'Tio Patinhas',
-    origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
-    nota: 'O último MacPatinhas',
-    recorrente: 'Sim'
+let info2 = {
+  personagem: 'Tio Patinhas',
+  origem: 'Christmas on Bear Mountain, Dell’s Four Color Comics #178',
+  nota: 'O último MacPatinhas',
+  recorrente: 'Sim',
+};
+
+for (let properties in info) {
+  if (
+    properties === 'recorrente' &&
+    info[properties] === 'Sim' &&
+    info2[properties] === 'Sim'
+  ) {
+    console.log('Ambos recorrentes');
+  } else {
+    console.log(info[properties] + ' e ' + info2[properties]);
+  }
 }
-// console.log(info.personagem + ' e ' + infoB.personagem);
-// console.log(info.origem + ' e ' + infoB.origem);
-// console.log(info.nota + ' e ' + infoB.nota);
-// if (info.recorrente === infoB.recorrente) {
-//     console.log('Ambos recorrentes');
-// }
-//     for (let j = 0;j < infoB.length; j++) {
-//         console.log(info[i] + ' e ' + infoB[i] + '');
-//     }
-
-
-
+*/
 //------------------------------------------
 //------------ Exercício 6 -----------------
 // let leitor = {
